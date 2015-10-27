@@ -1,0 +1,6 @@
+output/*
+!.gitkeep
+*.o
+main
+!main.c
+*.out
