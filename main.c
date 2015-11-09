@@ -1,13 +1,11 @@
 #include <stdio.h>
-#include <math.h>
 
 #include "libs/board.h"
+#include "libs/colors.h"
 
 int main()
 {
-    Board b;
-    fillBoard(b);
-    printBoard(b);
+    boardGame();
     return 0;
 }
 
